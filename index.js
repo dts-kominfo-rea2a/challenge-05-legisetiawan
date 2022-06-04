@@ -11,8 +11,8 @@ const sorter = (arr,fSort) => {
 
     let data = [];
     for (let i = 0; i < sortData.length; i++) {
-      let loop = " "
-      loop += i + 1 + '. ' + sortData[i]
+      let loop = ''
+      loop += i + 1 + '. '+ sortData[i]
       // masukan kedalam array
       data.push(loop)
     }
